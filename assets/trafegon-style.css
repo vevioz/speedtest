@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+
+.home-title h1{
+	color:#808080;
+}
+
+.home-title h2 small{
+	color:#ffffff;
+	line-height: 125%;
+	letter-spacing: 2px;
+}
+
+.home-title h2 small{
+	color:#ffffff;
+	line-height: 125%;
+	letter-spacing: 2px;
+}
+
+
+.home-title strong {
+	color:00ff00 !important;
+	/*text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;*/
+}
+
+.home-thumbnail{
+	border-color: #ffffff;
+}
+
+.btn-trafegon-black{
+	background: #000000;
+    color: #00ff00;
+    border: 3px solid;
+    border-color: #303030;
+    font-weight: bold;
+}
+.btn-trafegon-black:hover {
+	background: #303030;
+    color: #00ff00;
+    border: 3px solid;
+    border-color: #303030;
+    font-weight: bold;
+}
+
+.btn-views-count{
+	background: #000000;
+    color: #00ff00;
+    border: 3px solid;
+    border-color: #303030;
+    font-weight: bold;
+}
+.btn-views-count:hover{
+	background: #303030;
+    color: #00ff00;
+    border: 3px solid;
+    border-color: #ffffff;
+    font-weight: bold;
+}
+.video-carousel-title h3{
+	color: #808080;
+	line-height: 155%;
+	font-size: 27px;
+}
+.carousel-caption .badge{
+	margin-left: 25%;
+	background: red;
+	border: 3px solid;
+    border-color: red;
+    font-size: 15px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: 0px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.carousel-indicators{
+	bottom: 0px;
+}
+
+.breadcrumb-video-section{
+    border: 3px solid;
+    border-color: #000000;
+    color: #303030;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.home-icon-thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.thumbnails {text-align: center;}
+.thumbnails .thumbnail {display: inline-block; margin: 0 5px;}
+
+#cookie-overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+@media (max-width: 1200px){
+#iframeTest{
+transform: scale(.7);
+-ms-transform: scale(.7); /* IE 9 */
+-webkit-transform: scale(.7); /* Safari and Chrome */
+-o-transform: scale(.7); /* Opera */
+-moz-transform: scale(.7); /* Firefox */
+ width:100%;}
+
+}
+@media (max-width: 655px){
+#iframeTest{
+transform: scale(.7);
+-ms-transform: scale(.7); /* IE 9 */
+-webkit-transform: scale(.7); /* Safari and Chrome */
+-o-transform: scale(.7); /* Opera */
+-moz-transform: scale(.7); /* Firefox */
+  margin-left: -15%; width: 760px; top:-100px;}
+
+}
+@media (max-width: 419px){
+ 
+#iframeTest{
+transform: scale(.5);
+-ms-transform: scale(.5); /* IE 9 */
+-webkit-transform: scale(.5); /* Safari and Chrome */
+-o-transform: scale(.5); /* Opera */
+-moz-transform: scale(.5); /* Firefox */
+top:-130px;}
+     
+	
+}
